@@ -7,9 +7,9 @@
 <p>1.打开Sublime Text，Preferences ->Package Settings->Package Control->Settings-User,在文件中添加以下几行代码：  
 "downloader_precedence":<br />
 {<br />
-    	"linux": [ "curl", "urllib",    "wget" ],<br />
-    	"osx": [ "curl", "urllib" ],<br />
-    	"windows": [ "wininet" ]<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;"linux": [ "curl", "urllib",    "wget" ],<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;"osx": [ "curl", "urllib" ],<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;"windows": [ "wininet" ]<br />
     },<br />
 </p>
 <p>2.重启Sublime Text，问题解决</p>
