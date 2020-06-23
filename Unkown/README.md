@@ -13,7 +13,7 @@ Mac的hosts文件路径为/tec/hosts
 但是在该路径下打开hosts文件可以看到文件已锁定，没有权限无法修改；所有可以将hosts文件复制到桌面进行编辑保存后，再替换原hosts文件，替换过程中需要输入一次管理员密码。  
 2.在hosts文件中添加Github地址  
 未修改前的hosts文件原内容应该是  
-'''
+```
 ##
 # Host Database
 #
@@ -23,9 +23,9 @@ Mac的hosts文件路径为/tec/hosts
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost
-'''  
+```
 将以下内容复制粘贴到hosts文件中  
-'''
+```
 # GitHub Start
 140.82.113.3      github.com
 140.82.114.20     gist.github.com
@@ -55,5 +55,5 @@ Mac的hosts文件路径为/tec/hosts
 199.232.68.133     avatars8.githubusercontent.com
 
 # GitHub End
-'''   
+```   
 修改完成之后保存，然后将原hosts文件替换，重新打开Github，即可发现网页中的图片都可以正常加载了。
