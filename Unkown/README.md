@@ -56,4 +56,5 @@ Mac的hosts文件路径为/tec/hosts
 
 # GitHub End
 ```   
+如图所示  
 修改完成之后保存，然后将原hosts文件替换，重新打开Github，即可发现网页中的图片都可以正常加载了。
